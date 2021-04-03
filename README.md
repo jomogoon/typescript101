@@ -7,13 +7,16 @@ https://youtu.be/wyO8RWl1ges
 ```
 # check node installed and version
 node -v
+
 # install typescript for global npm environment
 npm i -g typescript
+
 # init 
 tsc --init
 
 # need to run after change and save typescript file
 tsc
+
 # or make it watch the change
 tsc -w
 
